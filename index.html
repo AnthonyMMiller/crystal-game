@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet">
+	<script
+			  src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous"></script>	  
+	<title></title>
+</head>
+<body class="background">
+	
+		<div class="container-fluid">
+			<div class="row">
+				<h1 class="header">Crystal Collector Game</h1>
+			</div>
+				<div class="row">
+					<div class="col-lg-6 instruction">
+                        <p>You will be given a random number at the start of the game.</p>
+                             <br>
+						<p>There are four crystals below. By clicking on a crystal you will add a 
+                            specific amount of points to your total score.</p>
+                            <br>    
+						<p>You win the game by matching your total score to random number, 
+                            you lose the game if your total score goes above the random number.</p>
+                            <br>
+                        <p>The value of each crystal is hidden from you until you click on it.</p>
+                            <br>
+						<p>Each time when the game starts, the game will change the values of each crystal.</p>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-6 number"></div>
+					<div class = "col-lg-1"></div>
+					<div class="col-lg-2 totalWL">
+						<div class="row wins"><div id = "wins"></div></div>
+						<div class="row losses"><div id = "losses"></div></div>
+					</div>
+				</div>
+				<br>
+				<div class="row"> 
+					<div class="col-sm-3 gems">
+                        <div id="one">
+                            <img src="assets/images/blue.png" class=gemImage id="gemOne" alt="Blue Gem"></div>
+					</div>
+					<div class="col-sm-3">
+                        <div id="two">
+                            <img src="assets/images/green.png" class=gemImage id="gemTwo" alt="Green Gem"></div>></div>
+					</div>
+					<div class="col-sm-3">
+						<div id="three">
+                            <img src="assets/images/red.png" class=gemImage id= "gemThree" alt="Red Gem"></div>
+					</div>
+					<div class="col-sm-3">
+						<div id="four">
+                                <img src="assets/images/yellow.png" class=gemImage id= "gemFour" alt="Yellow Gem">
+                        </div>
+					</div>
+				</div>
+				<br>
+				<div class="row"> 
+					<div class="col-lg-6"></div>
+				</div>
+				<br>
+				<div class="row"> 
+					<div class="col-lg-6 score"></div>
+				</div>
+		</div>
+		<script
+			  src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

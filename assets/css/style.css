@@ -1,0 +1,62 @@
+.background { 
+	background-image: url("../images/wallpaper.jpg");
+	background-size: 100%;
+ }
+
+ .header { 
+    font-family: 'Kosugi Maru', sans-serif;; 
+    color: grey;
+    font-size: 50px;
+    margin-left: 120px;
+  }
+
+.instruction {
+	border: 2px solid red;
+	padding: 2%;
+	background-color: white; 
+	opacity: 0.6; 
+	font-family: 'Kosugi Maru', sans-serif;
+	color: brown;
+}
+
+.number {
+	border: 2px solid red;
+	padding: 3%;
+	background-color: grey; 
+	opacity: 0.6; 
+	color: black;
+	font-size: 150%; 
+    font-family: 'Kosugi Maru', sans-serif; 
+}
+
+.wins, .losses { 
+	padding: 2%;
+	color: brown;
+  }
+.gemImage {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.totalWL { 
+	border: 2px solid red;
+	padding: 2%; 
+	background-color: white; 
+	opacity: 0.6; 
+	font-family: 'Kosugi Maru', sans-serif; 
+ }
+
+ .score {
+ 	border: 2px solid red;
+	padding: 3%; 
+	background-color: white; 
+	opacity: 0.6; 
+	color: red;
+	font-size: 200%;
+	font-family: 'Kosugi Maru', sans-serif; 
+ }
+.score, .number, .wins, .losses, .instruction, .totalWL{
+width: 700px;
+margin-left: 50px;
+}
